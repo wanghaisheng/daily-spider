@@ -1,0 +1,8 @@
+requests
+playwright
+selenium_stealth
+selenium
+pillow
+pandas
+plane
+undetected-chromedriver
