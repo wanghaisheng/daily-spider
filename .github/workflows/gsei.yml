@@ -13,6 +13,8 @@ jobs:
           python-version: '3.10'
       - name: Install all necessary packages
         run: pip install  -r  requirements.txt 
+      - name: playwright install
+        run: playwright install
       - name: Run the scraping script
         run: python3  gsei.py 
       - name: Commit and push and email if content changed
